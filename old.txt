@@ -1,7 +1,4 @@
-import json
-import os
-
-global json_file
+ global json_file
 
 def findObject(file_data):
     print("Enter the path to what should be changed. Use a number for indexes and * for all indexes of an array. Use a string for a key and $ for all keys of a dictionary.")
@@ -15,9 +12,9 @@ def findObject(file_data):
             pass
         except (IndexError, ValueError):
             pass
-
-def main():
-    print("JSON-File Structorizor:")
+ 
+#Main()
+ print("JSON-File Structorizor:")
     file_path = input("Enter a file path, if the file path is a directory, create a json file within it: ") 
     if os.path.isfile(file_path):
         json_file_path = file_path
@@ -47,5 +44,19 @@ def main():
     # Add Value input: {Type} str {Value} Hallo Welt! ; {Type} array {Array-Type} str 'item_1' 'item_2' 'item_3' 'item_4'... ; {Type} num 257.5125
     print("Possible Operations: 'create'-> Create a new JSON structure; 'add-key' -> add a new key to an exsisitng dictionary; 'fill-value' -> set a new value for a given key; get_struct shows all the structure of the Json file.")
 
-if __name__ == __name__:
-    main();
+#dict
+
+    sub_layer = ""
+                sub_struct = _struct[i][1]
+                k = 0
+                while k < len(sub_struct): 
+                    new_sub_layer = ""
+                    if(sub_struct[k][0] == 'a'):
+                        new_sub_layer = '['
+                        sub_a_length = int(sub_struct[i][1])
+                        for kj in range(sub_a_length):
+                            new_sub_layer += 'c,'
+                        new_sub_layer = new_sub_layer[:-1]
+                        new_sub_layer += ']'
+                    else:
+                        new_sub_layer = "'" + sub_struct[k] + "'"

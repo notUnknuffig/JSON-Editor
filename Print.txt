@@ -1,0 +1,17 @@
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* 											*
+*	How to Format a JSON-file: 							*
+*	* : creates an item that will be filled at the end of an operation.		*
+*	a(n, item) : creates a new array with n indecies and fills it with items.	*
+*	d('key_a':item 'key_b':item) : creates a new dict with key as key and 		*
+*					item as value.					*
+*											*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+C:\Users\User\Documents\GitHub\JSON-Editor
+
+
+a(10,a(3,*))
+
+a 10 a 3 * ))
