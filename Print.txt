@@ -1,3 +1,0 @@
-C:\Users\User\Documents\GitHub\JSON-Editor
-
-a,3[d{(key_1, *), (key_2, (a,3[*])), (key_3, (d{(name, *), (last_name, *), (age, *)}))}]
