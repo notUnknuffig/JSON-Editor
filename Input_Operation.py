@@ -39,7 +39,7 @@ def main():
             print('File-Error 1: Path entered is incorrect or not a directory.')
     elif(op_type == 'n'):
         edit_path = input('Enter a path to the JSON-File')
-        if(os.path.isfile(create_path)):
+        if(os.path.isfile(edit_path)):
             print('Opening File!')
 
     else:
