@@ -1,0 +1,26 @@
+[
+    {
+        "name": "BB",
+        "weapon": "w",
+        "element": [
+            "a",
+            "a"
+        ]
+    },
+    {
+        "name": "a",
+        "weapon": "a",
+        "element": [
+            "a",
+            "a"
+        ]
+    },
+    {
+        "name": "a",
+        "weapon": "a",
+        "element": [
+            "a",
+            "a"
+        ]
+    }
+]
