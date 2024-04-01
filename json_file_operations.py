@@ -178,10 +178,3 @@ def getElement(_index, data, operation):
     _index = _index.split(" ")
     data = getSubElement(_index, data, operation)
     return data
-
-
-if __name__ == '__main__':
-    edit_path = r'C:\Users\User\Documents\GitHub\JSON-Editor\test.json'
-    with open(edit_path, 'r') as _file:
-        data = json.load(_file)
-    print(getElement(input(), data, ['-append', '#key, (a["a","b","c"])']))
